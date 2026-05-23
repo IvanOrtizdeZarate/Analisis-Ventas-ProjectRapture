@@ -13,6 +13,8 @@ Escenario B – Análisis de ventas de una pequeña empresa.
 
 ## Dataset
 Archivo `datos/ventas.csv` generado aleatoriamente para este proyecto (200 registros simulados).
+Previamente se planeó utilizar un DataSet de un repositorio de GitHub, sugerido por una inteligencia artificial,
+pero debido a la falta de una columna producto, se decidió generar un csv propio.
 
 Columnas:
 - `id`: identificador de la venta
@@ -20,8 +22,6 @@ Columnas:
 - `producto`: nombre del producto
 - `cantidad`: unidades vendidas
 - `precio`: precio unitario en pesos
-
-El dataset fue creado con Python en Google Colab para cumplir con el Escenario B, ya que el dataset sugerido en la consigna (https://gist.github.com/khanusama20/ee33c2869dd5cf3cebdf020be1ca43f6) solo incluía fecha y monto diario, sin columna de producto.
 
 ## Estructura
 - `datos/` – datos de entrada
