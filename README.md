@@ -13,8 +13,8 @@ Escenario B – Análisis de ventas de una pequeña empresa.
 
 ## Dataset
 Archivo `datos/ventas.csv` generado aleatoriamente para este proyecto (200 registros simulados).
-Previamente se planeó utilizar un DataSet de un repositorio de GitHub, sugerido por una inteligencia artificial,
-pero debido a la falta de una columna producto, se decidió generar un csv propio.
+Previamente se estaba por utilizar un DataSet de un repositorio de GitHub, sugerido por el documento adjunto del TP,
+pero debido a que este no contenía una columna producto, decidí optar por crear un CSV propio con datos aleatorios con ayuda de la IA.
 
 Columnas:
 - `id`: identificador de la venta
