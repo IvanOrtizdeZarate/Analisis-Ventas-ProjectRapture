@@ -12,20 +12,28 @@
 Escenario B – Análisis de ventas de una pequeña empresa.
 
 ## Dataset
-Archivo CSV en `/datos`. 
-Obtenido de la IA, la siguiente fuente fue sugerida:
-https://gist.github.com/khanusama20/ee33c2869dd5cf3cebdf020be1ca43f6
+Archivo `datos/ventas.csv` generado aleatoriamente para este proyecto (200 registros simulados).
+Previamente se planeó utilizar un DataSet de un repositorio de GitHub, sugerido por una inteligencia artificial,
+pero debido a la falta de una columna producto, se decidió generar un csv propio.
+
+Columnas:
+- `id`: identificador de la venta
+- `fecha_venta`: fecha de la operación
+- `producto`: nombre del producto
+- `cantidad`: unidades vendidas
+- `precio`: precio unitario en pesos
 
 ## Estructura
 - `datos/` – datos de entrada
-- `scripts/` – código de análisis en python
+- `scripts/` – código de análisis en Python
 - `resultados/` – gráficos y salidas
 
 ## Ejecución en Colab
 1. Configurar el usuario para commits
-2. Clonar el repositorio.
-3. Ejecutar el script en `scripts/`.
-4. Revisar salidas en `resultados/`.
+2. Clonar el repositorio
+3. Crear o verificar el dataset en `datos/ventas.csv`
+4. Ejecutar el script en `scripts/analisis_ventas.py`
+5. Revisar salidas en `resultados/`
 
 ## Trazabilidad Jira
 - PROYECT-1: Crear roles para los miembros del equipo
